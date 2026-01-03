@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "hello anek.codes"}
+    return {"message": "Hello Perfectus! 🚀 Welcome to your next big idea."}
 
 if __name__ == "__main__":
     import uvicorn
