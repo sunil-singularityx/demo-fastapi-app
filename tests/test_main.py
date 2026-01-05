@@ -11,3 +11,8 @@ def test_read_main():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json() == {"message": "Hello Perfectus!"}
+
+def test_read_creative():
+    response = client.get("/creative")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Creativity is intelligence having fun."}
