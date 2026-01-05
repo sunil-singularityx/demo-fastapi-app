@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "Hello Perfectus!"}
+    return {"message": "Greetings, seeker of knowledge! The API oracle is online and awaits your query."}
 
 if __name__ == "__main__":
     import uvicorn
